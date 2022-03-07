@@ -30,7 +30,9 @@
 #endif
 
 /* Protocol definition */
+#ifndef SRTM_I2C_BUF_LEN
 #define SRTM_I2C_BUF_LEN (16U)
+#endif
 
 #define SRTM_I2C_FLAG_NEED_STOP (0x200U)
 

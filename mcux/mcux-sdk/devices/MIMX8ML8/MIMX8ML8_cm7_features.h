@@ -137,6 +137,11 @@
 /* @brief ECSPI Tx FIFO Size. */
 #define FSL_FEATURE_ECSPI_TX_FIFO_SIZEn(x) (64)
 
+/* FLEXSPI module features */
+
+/* @brief FlexSPI AHB buffer count */
+#define FSL_FEATURE_FLEXSPI_AHB_BUFFER_COUNTn(x) (8)
+
 /* EDMA module features */
 
 /* @brief Number of DMA channels (related to number of registers TCD, DCHPRI, bit fields ERQ[ERQn], EEI[EEIn],
